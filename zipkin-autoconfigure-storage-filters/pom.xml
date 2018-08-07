@@ -36,12 +36,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>${project.groupId}</groupId>
+            <groupId>io.zipkin.zipkin2</groupId>
             <artifactId>zipkin</artifactId>
+            <version>2.11.1</version>
         </dependency>
 
         <dependency>
-            <groupId>io.zipkin.zipkin2</groupId>
+            <groupId>net.afalko.io.zipkin.zipkin2</groupId>
             <artifactId>zipkin-storage-filters</artifactId>
             <version>2.11.1</version>
         </dependency>
